@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQXRAaWCc4XepP9H2gHHAXszANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQyM2MzMGZkZC1lYjZkLTQ2OTctYjA3My1hZWY2Y2JmYWVkMDcw
+    HhcNMTkwNjEwMjMyNTAxWhcNMjQwNjA5MDAyNTAxWjAvMS0wKwYDVQQDEyQyM2Mz
+    MGZkZC1lYjZkLTQ2OTctYjA3My1hZWY2Y2JmYWVkMDcwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCvzH+gflu1aDVL5zPWRd1NfCuXGv0mtNa087S0DhOH
+    DV95MS+krineLXm3pHjZIL0+5yYq/t5lGUYM29WiT2siukhjssY5Db9O8WWx30dJ
+    04QfNG9swljm8PIA6goNkkVqtezwRGufMTOTD8mtBygatPIVHpH3pU1I8J2KC+Fu
+    9R9g0VcOIujsBdqqlZz/L07iQW9PLfCl0hFdiICrkTBecHQIo7SkJeBUUf/ZqsWV
+    BAC0ZwgJn8JSeI4USDD3ORlqrFvl76ZHTiCsBdJsN56hjlOnFwIAPTgPIhoy5cYu
+    pA2XO1XCq0yaKIA2+HHn66vKA4zd6C6OHbj05D6AWExxAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAN
+    gfZRa7SlwyXFpsH5dwthqFxyyL455iB+Ot3Vxoo71DyvkV0HV04/OfM/7ywtGsot
+    LaXHNrOsAYCiKJX1eVE4LvnNjcdw0kVkSjUfw2fHw8gNa1YYO0LXJT+W44Y6zVIw
+    nu+OZ0072DCW5rtrsNV+PHERAlSjXIFLzkjjR5LumGG2aazmWpDFVXtblfUL8DaH
+    8LGbthZhqeLTWtjg9NQgkP1UeuFFKzfDcCSi7lz0HOB+e8jg+gAVs7LGTCig0T1f
+    nKA5dmNjXiu4VAAEcF5FMrEBn7OT8Jd56fzEpuPvrsEglaFA4b1tlwUOQLwmcdbr
+    tCfUAnUAlBh4aNxxP2Ao
+    -----END CERTIFICATE-----
+  clusterName: wild-turkey
+  jx-install-version: 2.0.258
+  kubeProvider: gke
+  projectID: simple-step-project
+  region: ""
+  secretsLocation: vault
+  server: https://35.203.56.58
+  systemVaultName: jx-vault-wild-turkey
+  zone: northamerica-northeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
